@@ -26,12 +26,22 @@ Use-cases:
 7.Scene Detection
 8.Final Integrated Web App
 
+Libraries:
+
 OpenCV: For using cascade files
- Numpy: For array operations
+
+Numpy: For array operations
+
 Matplotlib.pyplot : For plotting
+
 Pickle : For serializing and de-serializing Python object structures
+
 Keras : For importing neural network models 
+
 Tensorflow : For CNN’s architecture and training
+
 Cython :  To generate CPython extension modules
+
 Pillow : To load images from files
+
 Lxml : To use the ElementTree API
