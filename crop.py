@@ -22,7 +22,8 @@ def facecrop(image):
     ## Crops the face of a person from any image!
 
     ## OpenCV XML FILE for Frontal Facial Detection using HAAR CASCADES.
-    facedata = "haarcascade_frontalface_alt.xml"
+    facedata = cv2.CascadeClassifier('F:/dd/Library/etc/haarcascades/haarcascade_frontalface_alt2.xml')
+
     cascade = cv2.CascadeClassifier(facedata)
 
     ## Reading the given Image with OpenCV
