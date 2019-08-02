@@ -40,18 +40,3 @@ Libraries required:
 	scipy==0.18
 	scikit-learn>=0.18
 
-4 simple steps to download this repo, run in your local server and work on it accordingly.
-
-Step 1.
-        Download or clone this repo.
-
-Step 2.
-        Get the requirments by typing in the command.
-        pip install -r requirements.txt
-        
-Step 3.
-        You are good to go.
-        RUN $python app.py
-     
-Step 4.
-        Open http://127.0.0.1:5000/ in your browser
