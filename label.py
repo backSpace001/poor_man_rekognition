@@ -4,7 +4,7 @@ import label_image
 size = 4
 
 
-# We load the xml file
+# load the xml file
 classifier = cv2.CascadeClassifier('F:/dd/Library/etc/haarcascades/haarcascade_frontalface_alt.xml')
 
 im = cv2.imread('C:/Users/Faiz Khan/Desktop/ddd/facial expression/test/3.jpg', 0 )
